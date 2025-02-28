@@ -1,0 +1,69 @@
+/*criar uma calculadora com 5 funções
+-interface
+-soma
+-divisão
+-subtração
+-multiplicação*/
+
+using System;
+
+//dentro dessa classe ira conter todos os meus métodos
+public class Calculadora
+{
+  //metodo que ira compilar as minhas funcoes
+  public static void MyCalculadora()
+  {
+   
+    Console.WriteLine("=====VAMOS USAR UMA CALCULADORA?=====\n"); // apresentação
+    
+    Console.WriteLine("Digite o 1º número: ");
+    double a = double.Parse(Console.ReadLine());
+    Console.WriteLine("Digite o 2º número: ");
+    double b = double.Parse(Console.ReadLine());
+    Console.WriteLine(
+    "\tDigite a opção desejada: "+
+    "\t1.Soma" +
+    "\t2.Subtração" +
+    "\t3.Divisão" +
+    "\t4.Multiplicação"
+    );
+    //variavel do tipo inteiro
+    int opcao = int.Parse(Console.ReadLine());
+    
+    double result = CalcSoma(a,b);
+    Console.WriteLine($"O resultado é: {result}.");
+
+
+  }
+        //metodo/função soma
+        public static double CalcSoma(double a, double b)
+        {
+          double resulSoma = a + b;
+    
+          return resulSoma;
+        }
+        //metodo/funcao subtração
+        public static double CalcSubtracao(double a, double b)
+        {
+          double resulSubtracao = a - b;
+      
+          return resulSubtracao;
+        }
+  
+        //metodo/funcao multiplicação
+        public static double CalcMultiplicacao(double a, double b)
+        {
+          double resulMultiplicacao = a * b;
+      
+          return resulMultiplicacao;
+        }
+  
+        //metodo/funcao divisão
+        public static double CalcDivisao(double a, double b)
+        {
+          double resulDivisao = a / b;
+      
+          return resulDivisao;
+        }
+  
+}
