@@ -24,11 +24,11 @@ public class Calculadora
     Console.WriteLine("Digite o 2º número: ");
     double b = double.Parse(Console.ReadLine());
     Console.WriteLine(
-    "\tDigite a opção desejada: "+
-    "\t1.Soma" +
-    "\t2.Subtração" +
-    "\t3.Divisão" +
-    "\t4.Multiplicação"
+    "\n\tDigite a opção desejada: "+
+    "\n\t1.Soma" +
+    "\n\t2.Subtração" +
+    "\n\t3.Divisão" +
+    "\n\t4.Multiplicação"
     );
     //variavel do tipo inteiro
     int opcao = int.Parse(Console.ReadLine());
