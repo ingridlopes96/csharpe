@@ -10,6 +10,9 @@ using System;
 //dentro dessa classe ira conter todos os meus métodos
 public class Calculadora
 {
+  static double result;
+  static double calculo;
+  static string operacao;
   //metodo que ira compilar as minhas funcoes
   public static void MyCalculadora()
   {
@@ -30,8 +33,31 @@ public class Calculadora
     //variavel do tipo inteiro
     int opcao = int.Parse(Console.ReadLine());
     
-    double result = CalcSoma(a,b);
-    Console.WriteLine($"O resultado é: {result}.");
+      if (opcao == 1 ){
+        operacao = "Soma";
+        calculo =CalcSoma(a,b);
+      }
+    else if (opcao == 2){
+      operacao = "Subtração";
+      calculo = CalcSubtracao(a,b);
+    }
+    else if (opcao ==3){
+      operacao = "Divis]ao";
+      calculo = CalcDivisao(a,b);
+    }
+    else if (opcao ==4){
+      operacao = "Multiplicação";
+      calculo = CalcMultiplicacao(a,b);
+    }
+    else {
+      Console.WriteLine("Operação invalida");
+    }
+
+    Console.WriteLine($"O resultado da sua {operacao} é: {calculo}");
+    
+    
+    //double result = CalcSoma(a,b);
+    //Console.WriteLine($"O resultado é: {result}.");
 
 
   }
