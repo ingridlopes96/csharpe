@@ -1,0 +1,70 @@
+using System;
+
+public class Quiz1
+{
+  static int acertos = 0;
+
+  public static void QuizUm()
+  {
+    Console.WriteLine(" BEM VINDO AO QUIZ SOBRE BIOLOGIA"); //APRESENTAÇÃO
+    Console.WriteLine("=================================\n");
+    
+    Console.WriteLine("1. O que é um herbívoro?\n\t" +
+      "A) Animais predominantemente nativos do bioma de mangue.\n\t" +
+      "B) Animais que voam.\n\t" +
+      "C) Animais que possuem dieta que inclui vegetais ou algas.\n\t"); // resposta certa
+    string r1 = Console.ReadLine();
+
+    Console.WriteLine("2. Qual é o maior felino do planeta?\n\t" +
+      "A) Girafa.\n\t" +
+      "B) Elefane.\n\t" +
+      "C) Baleia azul.\n\t"); // resposta certa
+    string r2 = Console.ReadLine();
+
+    Console.WriteLine("3. Qual animal mais rápido do planeta?\n\t" +
+      "A) Tigre siberiano.\n\t" +
+      "B) Falcão peregrino.\n\t" + // resposta certa
+      "C) Guepardo.\n\t"); 
+    string r3 = Console.ReadLine();
+
+    Console.WriteLine("4. Quais desses animais não foram extintos?\n\t" +
+      "A) Texugo negro.\n\t" + //resposta certa
+      "B) Titanoboa\n\t" +
+      "C) Megalodonte\n\t");
+    string r4 = Console.ReadLine();
+    
+      if (r1 == "c" || r1 == "C")
+      {
+        acertos++;
+      }
+    else if (r2 == "c" || r2 == "C")
+      {
+        acertos++;
+      }
+    else if (r3 == "b" || r3 == "B")
+      {
+        acertos++;
+      }
+      else if (r4 == "a" || r4 == "A")
+      {
+        acertos++;
+      }
+      else 
+      {
+      Console.WriteLine("Opção inválida");
+      }
+    
+      if (acertos == 4 )
+      {
+        Console.WriteLine("PARABÉNS! voce acertou tudo. Fera em Biologia!");
+      } 
+    else if (acertos == 3 )
+      {
+        Console.WriteLine("Muito bom, foi quase! mas da pra melhorar!");   
+      }    
+      else
+      {
+      Console.WriteLine("Poxa! precisa estudar mais!");
+      }
+  }
+}
