@@ -1,0 +1,15 @@
+T:\Publica\!!!!!!!!!!!!!!!!INGRID\While\bin\Debug\net8.0\While.exe
+T:\Publica\!!!!!!!!!!!!!!!!INGRID\While\bin\Debug\net8.0\While.deps.json
+T:\Publica\!!!!!!!!!!!!!!!!INGRID\While\bin\Debug\net8.0\While.runtimeconfig.json
+T:\Publica\!!!!!!!!!!!!!!!!INGRID\While\bin\Debug\net8.0\While.dll
+T:\Publica\!!!!!!!!!!!!!!!!INGRID\While\bin\Debug\net8.0\While.pdb
+T:\Publica\!!!!!!!!!!!!!!!!INGRID\While\obj\Debug\net8.0\While.GeneratedMSBuildEditorConfig.editorconfig
+T:\Publica\!!!!!!!!!!!!!!!!INGRID\While\obj\Debug\net8.0\While.AssemblyInfoInputs.cache
+T:\Publica\!!!!!!!!!!!!!!!!INGRID\While\obj\Debug\net8.0\While.AssemblyInfo.cs
+T:\Publica\!!!!!!!!!!!!!!!!INGRID\While\obj\Debug\net8.0\While.csproj.CoreCompileInputs.cache
+T:\Publica\!!!!!!!!!!!!!!!!INGRID\While\obj\Debug\net8.0\While.sourcelink.json
+T:\Publica\!!!!!!!!!!!!!!!!INGRID\While\obj\Debug\net8.0\While.dll
+T:\Publica\!!!!!!!!!!!!!!!!INGRID\While\obj\Debug\net8.0\refint\While.dll
+T:\Publica\!!!!!!!!!!!!!!!!INGRID\While\obj\Debug\net8.0\While.pdb
+T:\Publica\!!!!!!!!!!!!!!!!INGRID\While\obj\Debug\net8.0\While.genruntimeconfig.cache
+T:\Publica\!!!!!!!!!!!!!!!!INGRID\While\obj\Debug\net8.0\ref\While.dll
